@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title >Pickup Call</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSKz7cEm2ZqzH2XnjZNwNlx7vaeGnhG81cTA&usqp=CAU" size="full"> -->
+  <div class="center">
+    <ion-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSKz7cEm2ZqzH2XnjZNwNlx7vaeGnhG81cTA&usqp=CAU" class="ion-align-self-end"></ion-img>
+  </div><ion-card>
+    <ion-card-content>
+      <p>Address: Fake street, 111</p>
+      <p>Complement: Apto 222</p>
+      <p>Neighborhood: neighborhood</p>
+      <p>Zip code: 1234567</p>
+      <p>City name - State</p>
+    </ion-card-content>
+  </ion-card>
+  <ion-list>
+    <ion-item lines="inset">
+      <ion-label position="floating">Notes </ion-label>
+      <ion-textarea></ion-textarea>
+    </ion-item>
+  </ion-list>
+  <ion-button size="full" color="success">Create Pick Up Call</ion-button>
+</ion-content>
