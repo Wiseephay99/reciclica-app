@@ -8,6 +8,9 @@ import { PickupCallsPageRoutingModule } from './pickup-calls-routing.module';
 
 import { PickupCallsPage } from './pickup-calls.page';
 
+
+
+
 @NgModule({
   imports: [
     CommonModule,
@@ -15,6 +18,8 @@ import { PickupCallsPage } from './pickup-calls.page';
     IonicModule,
     PickupCallsPageRoutingModule
   ],
-  declarations: [PickupCallsPage]
+  declarations: [
+    PickupCallsPage,
+  ]
 })
 export class PickupCallsPageModule {}
