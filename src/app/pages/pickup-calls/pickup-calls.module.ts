@@ -7,7 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { PickupCallsPageRoutingModule } from './pickup-calls-routing.module';
 
 import { PickupCallsPage } from './pickup-calls.page';
-
+import { ComponentsModule } from 'src/app/components/components.module';
 
 
 
@@ -16,6 +16,7 @@ import { PickupCallsPage } from './pickup-calls.page';
     CommonModule,
     FormsModule,
     IonicModule,
+    ComponentsModule,
     PickupCallsPageRoutingModule
   ],
   declarations: [
