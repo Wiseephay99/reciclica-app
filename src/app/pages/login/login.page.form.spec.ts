@@ -14,10 +14,10 @@ describe('LoginPageForm', () => {
 
             it ('should create login form empty', () => {
                     expect(form).not.toBeNull();
-                    expect(form.get('email'))?. not.toBeNull();
+                    expect(form.get('email')).not.toBeNull();
                     expect(form.get('email')?.value).toEqual("");
                     expect(form.get('email')?.valid).toBeFalsy();
-                    expect(form.get('password'))?.not.toBeNull();
+                    expect(form.get('password')).not.toBeNull();
                     expect(form.get('password')?.value).toEqual("");
                     expect(form.get('password')?.valid).toBeFalsy();
             })
@@ -38,7 +38,7 @@ describe('LoginPageForm', () => {
             it ('should have a valid form', () => {
                 form.get('email')?.setValue('valid@email.com');
                 form.get('password')?.setValue('anyPassword');
-                expect(form.valid)('email')?.toBeTruthy();
+                expect(form.get('email')?.valid).toBeTruthy();
             })
             
 })
